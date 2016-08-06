@@ -1,0 +1,54 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	/*background-color: #E7F7CA;
+	background: linear-gradient(to top, #E7F7CA, #fff);*/
+	
+	color: white;
+}
+.top_pokemon_logo {
+	text-align: center;
+}
+img[src="img/pokemon1.png"] {
+	height: 50%;
+	width: 50%;
+	border: 1px solid white;
+	position: relative;
+}
+.description {
+	display: inline-block;
+	border: 1px solid white;
+	float: left;
+}
+.top_contacts {
+	display: inline-block;
+	border: 1px solid white;
+}
+img[class="img-responsive"] {
+	position: absolute;
+}
