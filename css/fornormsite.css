@@ -1,69 +1,61 @@
-
-
 *{
 	padding: 0;
 	margin: 0;
 }
-
 html, body{
 	width: 100%;
 	height: 100%;
 }
-
-html, body, div, p, section, header, footer, main {
+html, body, div, iframe, p, section, header, footer, main {
 	display: block;
 }
-
-
 body {
 	background-image: url("pokemoswalpaper.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
-
 .wrapper {
     max-width: 1100px;
     margin: 0 auto;
-    box-shadow: 0px 0px 29px 30px rgba(255, 255, 255, .9);
+    box-shadow: 0px 0px 45px 30px rgba(255, 255, 255, 1);
     /* height: 100vh; */
-    background: linear-gradient(to top, rgba(233, 239, 224, 1), rgba(255, 255, 255, 1));
+    background: rgba(255,255,255,1);
 }
-
 header {
 	width: 100%;
 	height: 200px;
 	margin-bottom: 50px;
 }
-
 .logo {
 	width: 100%;
 	text-align: center;
 }
-
 .logo img {
-	max-width: 650px;
-	margin: 0 auto;
+	max-width: 450px;
+    margin: 3px auto;
 	min-width: 250px;
-	margin-top: -40px;
+	height: 250px;
+	position: relative;
+	z-index: 2;
 }
-
 .first {
 	width: 100%;
 	border-bottom: 2px solid red;
 	text-align: center;
 }
-
 h1 {
 	color: #000;
 	font-size: 54px;
+	padding-top: 15px;
+	padding-right: 498px;
+	position: relative;
+	z-index: 2;
 }
-
 .first div {
 	width: 100%;
 	margin-right: 15px;
 	margin-bottom: 15px;
-	margin-top: 30px;
 	display: inline-block;
 	color: #fff;
 	vertical-align: top;
@@ -71,49 +63,92 @@ h1 {
 	text-align: center;
 	font-size: 50px;
 	min-width: 300px;
-
-}
-
-.first div+div{
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-image: url('pokeballfront.png'); */
-    background-position: 0px -109px;
-    height: 350px;
 }
 
 .first div+div img {
-	width: 25%;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	margin-top: -275px;
 }
-
-
 .second {
 	width: 100%;
 	border-bottom: 2px solid red;
-	height: 450px;
+	height: 600px;
 }
-
-
 .second .video {
-	max-width: 750px;
-	margin: 0 auto;
-	margin-top: 50px;
-	height: 400px;
 }
-
-
 .third {
 	width: 100%;
 	border-bottom: 2px solid red;
-	height: 500px;
+	height: 877px;
+	/*background: url(pikachu.png) bottom left no-repeat, 
+                url(slowpoke.png) center right no-repeat;*/
+    /*background-size: 35%, 50%;
+    background-position-y: 528px , 77px;
+    background-position-x: 0px, 635px;*/
 }
-
-
+.slowpoke, .pikachu {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+.pikachu {
+	margin-left: 30px;
+}
+.slowpoke img {
+    width: 145%;
+    margin-top: 109px;
+    margin-left: -83px;
+}
+.oblako1, .oblako2 {
+	background: url("oblako2.png") right center  no-repeat;
+	width: 59%;
+	height: 360px;
+	margin-top: 30px;
+	display: inline-block;
+	vertical-align: top;
+	background-size: contain;
+}
+.oblako2 {
+	margin-top: 30px;
+}
+.oblako1 p, .oblako2 p {
+	width: 40%;
+    margin: 0 auto;
+    margin-top: 146px;
+}
 .fours {
 	width: 100%;
 	border-bottom: 2px solid red;
 	height: 450px;
 }
+video {
+	width:900px; 
+	height:700px; 
+}
+input[type="submit"] {
+	position: relative;
+	bottom: 50px;
+	background: linear-gradient(to left, #1CC598, #91D881);
+	z-index: 3;
+}
+input[type="submit"] {
+    position: relative;
+    bottom: 195px;
+    left: 50px;
+    background: linear-gradient(to left, #1CC598, #91D881);
+    height: 37px;
+    width: 157px;
+    border-radius: 27px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    z-index: 3;
+form {
+	width: 100%;
+}
+
 
 
 
